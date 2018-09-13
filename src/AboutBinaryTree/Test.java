@@ -1,3 +1,5 @@
+package AboutBinaryTree;
+
 class Node{
     Node leftNode;
     Node rightNode;
@@ -56,9 +58,9 @@ public class Test {
     public static void main(String [] args){
         int [] pre={5,3,2,4,8,6,10};
         int [] mid={2,3,4,5,6,8,10};
-        //new BnaryTree(pre);
+        //new AboutBinaryTree.BnaryTree(pre);
         //System.out.println();
-        //new BnaryTree(mid);
+        //new AboutBinaryTree.BnaryTree(mid);
         Test test = new Test();
         test.initTree(pre,mid);
         //test.print(node);
